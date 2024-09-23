@@ -1,5 +1,25 @@
-# Vue 3 + Vite
+# Project Overview
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This project is a Vue application that utilizes @reown/appkit/vue and @reown/appkit-adapter-wagmi to connect wallets. It also leverages WagmiProvider and WagmiAdapter to achieve this functionality.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Project ID
+
+You need to obtain the project ID from https://cloud.reown.com and set it as VUE_APP_PROJECT_ID in the .env file.
+
+## Networks
+
+This project supports two networks: mainnet and arbitrum.
+
+## Features
+
+The features of this project include:
+
+- Connecting wallets
+- Displaying wallet information
+- Displaying network information
+- Customizable buttons
+
+## Usage
+
+You can open the modal and connect your wallet by clicking the buttons.
+
