@@ -5,9 +5,6 @@ import { WagmiProvider } from 'wagmi'
 import { arbitrum, mainnet } from '@reown/appkit/networks'
 import { WagmiAdapter } from '@reown/appkit-adapter-wagmi'
 
-import dotenv from 'dotenv'
-dotenv.config()
-
 // 1. Get projectId from https://cloud.reown.com
 const projectId = process.env.PROJECT_ID
 

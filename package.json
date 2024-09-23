@@ -11,7 +11,6 @@
   "dependencies": {
     "@reown/appkit": "^1.0.3",
     "@reown/appkit-adapter-wagmi": "^1.0.3",
-    "dotenv": "^16.4.5",
     "viem": "^2.21.12",
     "vue": "^3.4.37",
     "wagmi": "^2.12.13"
